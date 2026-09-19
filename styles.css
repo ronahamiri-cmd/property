@@ -20,20 +20,26 @@ body {
 #sidebar {
     box-sizing: border-box;
     height: 100vh;
-    width: 250px;
+    width: 310px;
     padding: 5px 1em;
     background-color: var(--base-clr);
     border-right: 1px solid var(--line-clr);
+    justify-content: center;
 
     position:sticky;
     top: 0;
     align-self: start;
 }
+
+#sidebar a {
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+}
+
 #sidebar ul {
     list-style: none;
-}
-#sidebar > ul > li:first-child{
-    margin-bottom: 16px;
 }
 #sidebar ul li.active a{
     color:var(--accent-clr);
