@@ -105,7 +105,8 @@ background-image:
             rgba(27, 46, 66, 0.55),
             rgba(27, 46, 66, 0.55)
         ),
-        url("../../images/main-living-room.png");}
+        url("/images/Main-living-room.png");
+    }
 
 .page2 {
 background-color: #FAFAFB;
