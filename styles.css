@@ -59,8 +59,14 @@ body {
     fill: var(--text-clr);
 }
 
-#sidebar a span, #side
+#sidebar a:hover {
+    background-color: var(--hover-clr);
+    color: #5e63ff;
+}
 
+#sidebar a:hover svg {
+    fill: #5e63ff;
+}
 
 .dropdown-btn{
     width: 100%;
