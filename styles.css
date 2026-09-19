@@ -54,6 +54,13 @@ body {
     gap: 1em;
 }
 
+#sidebar svg{
+    flex-shrink: 0;
+    fill: var(--text-clr);
+}
+
+#sidebar a span, #side
+
 
 .dropdown-btn{
     width: 100%;
