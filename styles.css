@@ -33,8 +33,6 @@ body {
     list-style: none;
 }
 #sidebar > ul > li:first-child{
-    display:flex;
-    justify-content: flex-end;
     margin-bottom: 16px;
 }
 #sidebar ul li.active a{
@@ -105,7 +103,7 @@ background-image:
             rgba(27, 46, 66, 0.55),
             rgba(27, 46, 66, 0.55)
         ),
-        url("/images/Main-living-room.png");
+        url("images/Main-living-room.png");
     }
 
 .page2 {
